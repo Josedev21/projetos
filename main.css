@@ -1,0 +1,44 @@
+header {
+    background-color: #004f40;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-style {
+    font-family: 'Michroma', sans-serif;
+}
+
+.js-color {
+    color: #edbb6c;
+}
+
+.cnst-color {
+    color: #fffffc;
+}
+
+.navbar .nav-link {
+    color: #fffffc;
+}
+
+.navbar .nav-link.active {
+    background-color: #edbb6c;
+}
+
+#carousel .carousel-item img {
+    height: 90vh;
+}
+
+.color-div {
+    background-color: #004f40;
+}
+
+.container {
+    position: relative;
+}
+
+button {
+    float: right;
+}
+

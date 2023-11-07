@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Construtora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4 pb-4" id="cabecalho">
+        <h1 class="brand-style js-color ms-3 fs-2">Js <span class="cnst-color">Construtora</span></h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end " id="#menu-navegacao">
+            <ul class="nav nav-pills">
+                <li class="nav-item  fw-bold">
+                    <a href="#" class="nav-link active ">
+                        <i class="bi bi-house me-2"></i>
+                        Sobre Nós
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#" class="nav-link ">
+                        <i class="bi bi-building me-2"></i>
+                        Obras
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-tools me-2"></i>
+                        Projetos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#" class="nav-link ">
+                        <i class="bi bi-chat-left-text me-2"></i>
+                        Fale Conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="w-100"
+                            src="https://1.bp.blogspot.com/-GYnzDJiCFhk/Xh5Z0ESd5cI/AAAAAAAAeek/Ao39SBiUkRA3w1_mj8NOc-ZEk95YiCAKQCLcBGAsYHQ/s1600/imagem_materia.jpg"
+                            alt="imagem de obra">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100"
+                            src="https://th.bing.com/th/id/R.3741d87764506eda9ebc832c7613eea7?rik=duupXf5FZpIi0A&riu=http%3a%2f%2fwww.plaenge.com.br%2fUPLOAD%2fImgEmpreendimentos%2f3717.jpg&ehk=8Z0Xg4xBMSawgXFdXRkJV%2bFFtCxiKSOJfKKSKNPY2vE%3d&risl=&pid=ImgRaw&r=0"
+                            alt="imagem de obra">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="https://i.ytimg.com/vi/8dAxX9NY_a4/maxresdefault.jpg"
+                            alt="imagem de obra">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100"
+                            src="https://st3.idealista.pt/news/arquivos/styles/imagen_big_lightbox/public/2020-08/05.jpg?sv=RkjXYLuF&itok=a1juXSla"
+                            alt="imagem de obra">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="w-100 rounded" src="https://i.pinimg.com/736x/fc/bd/c0/fcbdc091e0fbc908203bb933ca16c2b5.jpg" alt="casa de luxo">
+                        </div>
+                        <div class="col-md-7 color-div rounded" id="div-sobre">
+                            <h2 class="brand-style js-color p-4">Sobre Nós</span></h2>
+                            <p class="cnst-color ms-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolor libero cupiditate, temporibus fuga culpa repellendus amet eum ver.
+                            </p>
+                            <h3 class="brand-style js-color ms-4">Especializações</h3>
+                            <ul class=" cnst-color">
+                                <li>
+                                    Serviço 1
+                                </li>
+                                <li>
+                                    Serviço 2
+                                </li>
+                                <li>
+                                    Serviço 3
+                                </li>
+                                <li>
+                                    Serviço 4
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-success ms-4 mb-3 w-50 fw-bold">Entre Em Contato</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
